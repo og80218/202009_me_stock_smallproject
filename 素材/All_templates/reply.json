@@ -1,0 +1,171 @@
+[  #快速模板 可以有多個
+        {
+  "type": "text", 
+  "text": "你好我是商品系統!\n請選擇'推薦'或是 '總商品介紹' ",
+  "quickReply": { 
+    "items": [
+      {
+        "type": "action", 
+        "imageUrl": "https://example.com/sushi.png",
+        "action": {
+          "type": "message",
+          "label": "Sushi",
+          "text": "Sushi"
+        }
+      },
+      {
+        "type": "action",
+        "imageUrl": "https://example.com/tempura.png",
+        "action": {
+          "type": "message",
+          "label": "Tempura",
+          "text": "Tempura"
+        }
+      },
+      {
+        "type": "action", 
+        "action": {
+          "type": "location",
+          "label": "Send location"
+        }
+      }
+    ]
+  }
+},
+   #傳送貼圖，號碼請至官網查詢line free sticker之類的{
+  "type": "sticker",
+  "packageId": "11537",
+  "stickerId": "52002736"
+   },
+#按鈕模板
+    {
+  "type": "sticker",
+  "packageId": "11537",
+  "stickerId": "52002736"
+   },
+    {
+  "type": "template",
+  "altText": "This is a buttons template",
+  "template": {
+      "type": "buttons",
+      "thumbnailImageUrl": "https://example.com/bot/images/image.jpg",
+      "imageAspectRatio": "rectangle",
+      "imageSize": "cover",
+      "imageBackgroundColor": "#FFFFFF",
+      "title": "Menu",
+      "text": "Please select",
+      "defaultAction": {
+          "type": "uri",
+          "label": "View detail",
+          "uri": "http://example.com/page/123"
+      },
+      "actions": [
+          {
+            "type": "postback",
+            "label": "Buy",
+            "data": "action=buy&itemid=123"
+          },
+          {
+            "type": "postback",
+            "label": "Add to cart",
+            "data": "action=add&itemid=123"
+          },
+          {
+            "type": "uri",
+            "label": "View detail",
+            "uri": "http://example.com/page/123"
+          }
+      ]
+  }
+},
+   #單純傳文字訊息 
+{
+  "type": "text",
+  "text": "Smart商品推薦系統加載中......"
+},
+ #carousel template
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://imgur.com/JNWS7U0.png",
+        "title": "SMart - 啟發",
+        "text": "2018年1月開幕的亞馬遜無人超市Amazon Go，標榜「商品拿了就走」的快速消費體驗，一開張就在全球引起轟動...",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "了解更多",
+            "uri": "https://www.ithome.com.tw/news/124133"
+          },
+          {
+            "type": "postback",
+            "label": "返回",
+            "text": "返回",
+            "data": "folder=關注"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://imgur.com/npOBmjO.png",
+        "title": "SMart - 新型資訊獲取管道 Chatbot",
+        "text": "SMart 透過設計的聊天機器人服務客戶以及特定資訊的獲取。",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "了解Chatbot",
+            "text": "洞察並協助使用者與SMart之間溝通運行的系統，透過智能客服，初步了解到SMart使用操作。",
+            "data": "folder=問題"
+          },
+          {
+            "type": "postback",
+            "label": "返回",
+            "text": "返回",
+            "data": "folder=關注"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl":"https://imgur.com/OxyrpKg.png",
+        "title": "SMart - 智能客服",
+        "text": "透過SMart的智能客服設計，提供使用者",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "了解智能客服",
+            "text": "聊天機器人是經由對話或文字進行交談的電腦程式。\n能夠模擬人類對話，通過圖靈測試。 聊天機器人可用於實用的目的，如客戶服務或資訊獲取。\n有些聊天機器人會搭載自然語言處理系統，但大多簡單的系統只會擷取輸入的關鍵字，再從語料庫中找尋最合適的應答句。",
+            "data": "folder=問題"
+          },
+          {
+            "type": "postback",
+            "label": "返回",
+            "text": "返回",
+            "data": "folder=關注"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://imgur.com/VK40jWT.png",
+        "title": "SMart - AI技術的結合",
+        "text": "Artificial Intelligence 的縮寫就是 AI，多種層面及技術現今或多或少都跟AI息息相關....",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "了解更多",
+            "uri": "https://makerpro.cc/2019/05/introduction-to-ai/"
+          },
+          {
+            "type": "postback",
+            "label": "返回",
+            "text": "返回",
+            "data": "folder=關注"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

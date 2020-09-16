@@ -1,0 +1,36 @@
+[
+{
+  "type": "text",
+  "text": "您好，歡迎進入股市小子，麻煩您先回答一些問題，方便您後續使用。"
+},
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "1. 10萬以下",
+        "text": ".1-1_可使用資金10萬元以下",
+		"data": "folder=02"
+      },
+      {
+        "type": "postback",
+        "label": "2. 10萬 – 50萬",
+        "text": ".1-2_可使用資金10萬~50萬元",
+		"data": "folder=03"
+      },
+      {
+        "type": "postback",
+        "label": "3. 50萬以上",
+        "text": ".1-3_可使用資金50萬元以上",
+		"data": "folder=04"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/jrgGCrg.jpg",
+    "title": "請問您手邊有多少閒置資金?",
+    "text": "選項3擇1"
+  }
+}
+]

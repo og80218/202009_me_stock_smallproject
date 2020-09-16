@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 2",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 14,
+        "y": 10,
+        "width": 787,
+        "height": 887
+      },
+      "action": {
+        "type": "message",
+        "text": "test1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 10,
+        "y": 902,
+        "width": 791,
+        "height": 767
+      },
+      "action": {
+        "type": "message",
+        "text": "test2"
+      }
+    },
+    {
+      "bounds": {
+        "x": 810,
+        "y": 10,
+        "width": 897,
+        "height": 853
+      },
+      "action": {
+        "type": "message",
+        "text": "test3"
+      }
+    },
+    {
+      "bounds": {
+        "x": 820,
+        "y": 878,
+        "width": 887,
+        "height": 808
+      },
+      "action": {
+        "type": "message",
+        "text": "test4"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1707,
+        "y": 10,
+        "width": 781,
+        "height": 848
+      },
+      "action": {
+        "type": "message",
+        "text": "test5"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1712,
+        "y": 878,
+        "width": 786,
+        "height": 795
+      },
+      "action": {
+        "type": "message",
+        "text": "test6"
+      }
+    }
+  ]
+}

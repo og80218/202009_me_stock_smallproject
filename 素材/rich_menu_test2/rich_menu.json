@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 4",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "股票推薦"
+      }
+    },
+    {
+      "bounds": {
+        "x": 834,
+        "y": 0,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "LIFF連結"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1663,
+        "y": 0,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "歷史紀錄"
+      }
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 836,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "圖片顯示"
+      }
+    },
+    {
+      "bounds": {
+        "x": 834,
+        "y": 836,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "台股新聞"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1663,
+        "y": 836,
+        "width": 837,
+        "height": 850
+      },
+      "action": {
+        "type": "message",
+        "text": "我的收藏"
+      }
+    }
+  ]
+}

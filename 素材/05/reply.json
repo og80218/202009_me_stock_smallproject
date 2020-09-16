@@ -1,0 +1,32 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1.喜歡快速獲利",
+        "text": ".5-1_高風險高報酬",
+        "data": "folder=TYPES_OF_I"
+      },
+      {
+        "type": "postback",
+        "label":"2.承擔少量風險",
+        "text": ".5-2_穩定中求成長",
+        "data": "folder=06"
+      },
+      {
+        "type": "postback",
+        "label":"3.希望保值避免損失",
+        "text": ".5-3_我很保守的",
+        "data": "folder=06"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/1eDuHKq.jpg",
+    "title": "下列何者最接近您的投資行為與經驗?",
+    "text": "選項3擇1"
+  }
+}
+]

@@ -1,0 +1,11 @@
+1.撰寫1支clock.py檔，放置在該專案資料夾
+2.至requirements.txt增加套件
+3.至Procfile加一行字(下一行)
+	clock: python clock.py
+4.上傳heroku固定3步驟
+	git add .
+	git commit -am "make it better"
+	git push heroku master
+
+5.至heroku網頁的該專案，點Overview，看左半部中間位置，尋找標題"Dyno formation"，點右側"Configure Dynos
+"，點選"clock python clock.py"右側鉛筆圖案，點完後啟動ON，啟動clock完成。

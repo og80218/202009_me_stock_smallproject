@@ -1,0 +1,38 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1. 價格低時，積極進場",
+        "text": ".7-1_我很積極布局",
+        "data": "folder=TYPES_OF_D"
+      },
+      {
+        "type": "postback",
+        "label":"2. 繼續觀察後市",
+        "text": ".7-2_我要觀察一陣子",
+        "data": "folder=TYPES_OF_C"
+      },
+      {
+        "type": "postback",
+        "label":"3. 部分贖回",
+        "text": ".7-3_我認賠一部分，再觀察看看",
+        "data": "folder=08"
+      },
+	  {
+        "type": "postback",
+        "label":"4. 全部贖回",
+        "text": ".7-4_認賠殺出",
+        "data": "folder=TYPES_OF_E"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/OYxlLR9.jpg",
+    "title": "當您原本投資的股市已經損失了15%，這時您會?",
+    "text": "選項4擇1"
+  }
+}
+]

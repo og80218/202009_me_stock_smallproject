@@ -1,0 +1,38 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1. 不能虧損超過10%",
+        "text": ".2-1_10%內可接受範圍",
+        "data": "folder=TYPES_OF_J"
+      },
+      {
+        "type": "postback",
+        "label":"2. 不能虧損超過30%",
+        "text": ".2-2_30%內可接受範圍",
+        "data": "folder=05"
+      },
+      {
+        "type": "postback",
+        "label":"3. 不能虧損超過50%",
+        "text": ".2-3_50%內可接受範圍",
+        "data": "folder=TYPES_OF_F"
+      },
+	  {
+        "type": "postback",
+        "label":"4. 虧損超過100%也可以",
+        "text": ".2-4_100%以上",
+        "data": "folder=TYPES_OF_G"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/XratLCr.jpg",
+    "title": "請問您這筆錢您能承受多大虧損?",
+    "text": "選項4擇1"
+  }
+}
+]

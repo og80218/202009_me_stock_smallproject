@@ -1,0 +1,50 @@
+[
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://zodiac.tw/uploads/1550028911-iavcY.jpg",
+        "title": "請選擇你要通往的道路!",
+        "text": "天堂",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "睡覺8小時",
+            "text": "睡覺8小時",
+            "data": "time=8"
+          },
+          {
+            "type": "postback",
+            "label": "發呆4小時",
+            "text": "發呆4小時",
+            "data": "time=4"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://memeprod.sgp1.digitaloceanspaces.com/user-wtf/1591435259677.jpg",
+        "title": "請選擇你要通往的道路!",
+        "text": "地獄",
+        "actions": [
+          {
+            "type": "postback",
+            "label": "工作16小時",
+            "text": "工作16小時",
+            "data": "time=16"
+          },
+          {
+            "type": "postback",
+            "label": "做不完的專案耗時20小時",
+            "text": "做不完的專案耗時20小時",
+            "data": "time=20"
+          }
+        ]
+      }
+    ]
+  }
+}
+]

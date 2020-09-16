@@ -1,0 +1,32 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1. 股票",
+        "text": ".6-1_投資一定有風險",
+        "data": "folder=TYPES_OF_E"
+      },
+      {
+        "type": "postback",
+        "label":"2. 債券型基金",
+        "text": ".6-2_穩定但有少許風險",
+        "data": "folder=07"
+      },
+      {
+        "type": "postback",
+        "label":"3. 存款",
+        "text": ".6-3_穩定但利率低",
+        "data": "folder=08"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/dooYJe6.jpg",
+    "title": "下列何者為您常使用的理財工具?",
+    "text": "選項3擇1"
+  }
+}
+]

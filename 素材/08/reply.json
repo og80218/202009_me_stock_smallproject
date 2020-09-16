@@ -1,0 +1,26 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1.股價低買進高賣出",
+        "text": ".8-1_我喜愛賺價差",
+        "data": "folder=TYPES_OF_A"
+      },
+      {
+        "type": "postback",
+        "label":"2.重押成長快速公司",
+        "text": ".8-2_我喜愛超高報酬",
+        "data": "folder=TYPES_OF_B"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/qPeKxUw.jpg",
+    "title": "以下哪一個敘述比較符合你的個性?",
+    "text": "選項2擇1"
+  }
+}
+]

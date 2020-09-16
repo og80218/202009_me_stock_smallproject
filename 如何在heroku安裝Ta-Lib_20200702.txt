@@ -1,0 +1,15 @@
+0.不用在requirements.txt輸入Ta-Lib套件
+1.開啟CMD，cd至要上傳的Heroku目錄下
+2.開啟CMD，輸入heroku buildpacks:add --index 1 heroku/python
+3.開啟CMD，輸入heroku buildpacks:add --index 2 numrut/ta-lib
+4.開啟CMD，輸入heroku buildpacks:add --index 2 https://github.com/numrut/heroku-buildpack-python-talib
+5.將requirements.txt輸入Ta-Lib
+6.重新上傳至Heroku(Ta-Lib套件安裝一定失敗)
+git add .
+git commit -am "Pxxx"
+git push heroku master
+7.將requirements.txt刪除Ta-Lib
+8.重新上傳至Heroku(若花一段時間，表示成功了)
+git add .
+git commit -am "Pxxx"
+git push heroku master

@@ -1,0 +1,32 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1. 每天1~2小時",
+        "text": ".4-1_每天花費1~2小時",
+        "data": "folder=TYPES_OF_G"
+      },
+      {
+        "type": "postback",
+        "label":"2. 每周1~2小時",
+        "text": ".4-2_每周花費1~2小時",
+        "data": "folder=06"
+      },
+      {
+        "type": "postback",
+        "label":"3. 每月1~2小時",
+        "text": ".4-3_每月花費1~2小時",
+        "data": "folder=TYPES_OF_H"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/S59bzCn.jpg",
+    "title": "你目前能投入多少時間學投資?",
+    "text": "選項3擇1"
+  }
+}
+]

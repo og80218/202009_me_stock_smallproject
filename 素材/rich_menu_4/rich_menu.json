@@ -1,0 +1,89 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 1",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "新鮮蔬果",
+        "data": "新鮮蔬果"
+      }
+    },
+    {
+      "bounds": {
+        "x": 832,
+        "y": 0,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "有機農場",
+        "data": "有機農場"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1670,
+        "y": 0,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "阿里山咖啡",
+        "data": "阿里山咖啡"
+      }
+    },
+    {
+      "bounds": {
+        "x": 0,
+        "y": 841,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "乾貨&蜂蜜",
+        "data": "乾貨&蜂蜜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 828,
+        "y": 841,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "了解小農",
+        "data": "了解小農"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1670,
+        "y": 841,
+        "width": 830,
+        "height": 839
+      },
+      "action": {
+        "type": "postback",
+        "text": "最新優惠",
+        "data": "最新優惠"
+      }
+    }
+  ]
+}

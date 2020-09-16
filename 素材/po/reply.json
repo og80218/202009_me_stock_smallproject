@@ -1,0 +1,25 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "postback",
+        "text": "postback",
+        "data": "folder=hi"
+      },
+      {
+        "type": "postback",
+        "label": "切換選單",
+        "text": "文字",
+        "data": "menu=rich_menu_test1"
+      }
+    ],
+    "title": "postback",
+    "text": "postback"
+  }
+}
+]

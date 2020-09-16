@@ -1,0 +1,35 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "圖文選單 6",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 1253,
+        "height": 1684
+      },
+      "action": {
+        "type": "message",
+        "text": "股票推薦"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1246,
+        "y": 0,
+        "width": 1254,
+        "height": 1684
+      },
+      "action": {
+        "type": "message",
+        "text": "功能說明"
+      }
+    }
+  ]
+}

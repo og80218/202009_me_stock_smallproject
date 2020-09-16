@@ -1,0 +1,38 @@
+[
+{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label":"1. 1個月內",
+        "text": ".3-1_1個月內",
+        "data": "folder=TYPES_OF_I"
+      },
+      {
+        "type": "postback",
+        "label":"2. 1~6個月時間內",
+        "text": ".3-2_1至6個月時間內",
+        "data": "folder=07"
+      },
+      {
+        "type": "postback",
+        "label":"3. 6個月~1年時間內",
+        "text": ".3-3_6個月至1年時間內",
+        "data": "folder=06"
+      },
+	  {
+        "type": "postback",
+        "label":"4. 1年以上",
+        "text": ".3-4_1年以上",
+        "data": "folder=TYPES_OF_E"
+      }
+    ],
+    "thumbnailImageUrl": "https://i.imgur.com/zl4oFP9.jpg",
+    "title": "請問您投資標的地獲利速度?",
+    "text": "選項4擇1"
+  }
+}
+]
