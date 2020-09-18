@@ -11,3 +11,5 @@
 	更新資料夾內的rich_menu.json及rich_menu.jpg
 	
 	更新完成後，再點rich_menu.ipynb，執行第一項，產生並上傳
+	
+20200918_將素材內不常用的回應刪除-v4

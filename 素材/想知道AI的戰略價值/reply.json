@@ -22,12 +22,6 @@
             "label": "企業專案製作",
             "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
             "data": "tag=chatbot|contact|line|project|project"
-          },
-          {
-            "type": "postback",
-            "label": "看更多機器人案例",
-            "text": "我要看更多機器人成功案例",
-            "data": "tag=chatbot|line|sample"
           }
         ]
       }
